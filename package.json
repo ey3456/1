@@ -1,0 +1,27 @@
+{
+  "name": "trx-fishpond-auth",
+  "version": "0.1.0",
+  "description": "TRX/TRC20 链上支付确认后自动授权鱼塘权限",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ey3456/1.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ey3456/1/issues"
+  },
+  "homepage": "https://github.com/ey3456/1#readme",
+  "dependencies": {
+    "pg": "^8.23.1",
+    "tronweb": "^6.5.1"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
